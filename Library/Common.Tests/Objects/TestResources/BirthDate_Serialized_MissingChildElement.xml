@@ -1,0 +1,7 @@
+﻿<?xml version="1.0"?>
+<BirthDate xmlns="Coconut.Library.Common">
+  <DateTime>2000-01-01T00:00:00</DateTime>
+  <YearIsReal>true</YearIsReal>
+  <MonthIsReal>true</MonthIsReal>
+  <DayIsReal>true</DayIsReal>
+</BirthDate>

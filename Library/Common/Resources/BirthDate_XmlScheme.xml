@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xsd:schema
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+  elementFormDefault="qualified"
+  targetNamespace="{0}"
+  xmlns="{0}">
+
+  <xsd:complexType name="{1}">
+    <xsd:sequence>
+      <xsd:element name="DateTime" minOccurs="1" maxOccurs="1" type="xsd:dateTime"/>
+      <xsd:element name="YearIsReal" minOccurs="1" maxOccurs="1" type="xsd:boolean"/>
+      <xsd:element name="MonthIsReal" minOccurs="1" maxOccurs="1" type="xsd:boolean"/>
+      <xsd:element name="DayIsReal" minOccurs="1" maxOccurs="1" type="xsd:boolean"/>
+      <xsd:element name="IsEmpty" minOccurs="1" maxOccurs="1" type="xsd:boolean"/>
+    </xsd:sequence>
+  </xsd:complexType>
+
+  <xsd:element name="{1}" type="{1}" />
+</xsd:schema>
